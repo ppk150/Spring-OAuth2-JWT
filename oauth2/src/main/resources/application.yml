@@ -1,0 +1,12 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 882323060278-3sr179710p7mmem65hibngar6cigpa03.apps.googleusercontent.com
+            client-secret: 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
+#            redirect-uri: https://d858-175-118-10-176.jp.ngrok.io/oauth2/authorization/google
+            scope:
+              - profile
+              - email
